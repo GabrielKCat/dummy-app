@@ -13,4 +13,5 @@ export const useScript = (url) => {
       document.body.removeChild(script);
     };
   }, [url]);
+  console.log();
 };
